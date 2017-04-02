@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Psychic Game</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<link href="https://fonts.googleapis.com/css?family=Macondo" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Varela+Round" rel="stylesheet">
+
+	<style type="text/css">
+
+		h1 {
+			font-family: "Macondo", cursive;
+			
+		}
+		body {
+			background-color: #040A1B;
+		}
+
+		h2 {
+
+			font-family: 'Varela Round', sans-serif;
+			font-family: 'Gloria Hallelujah', cursive;
+		}
+
+		.list-group{
+			float: left;
+		}
+
+		#wrapper  {
+			margin-left:10%;
+		}
+
+	</style>
+</head>
+<body>
+
+		<div class="row">
+			<div class="text-center">
+				<h1>The Psychhic Game</h1>
+			</div>
+
+		</div>
+
+		<div class="row">
+			<div class="text-center">
+  				<img src="assets/images/psy.gif" class="rounded" alt="Psychic" height="30%"  width="30%">
+			</div>
+		
+		</div>
+
+		<div class="row">
+			<div class="text-center">
+  				<h2>Guess what letter i'm thinking of?</h2>
+			</div>
+		
+		</div>
+		<br>
+		<br>
+
+		<div class="row">
+			
+			<section id="wrapper">
+				<div class="col-sm-3 text-center">
+					<ul class="list-group">
+		  				<li class="list-group-item">
+		    				<span class="badge" id="wns"></span>
+		    				Wins:
+						</li>
+					</ul>
+				</div>
+
+				<div class="col-sm-3">
+					<ul class="list-group">
+		  				<li class="list-group-item">
+		    				<span class="badge" id="lss"></span>
+		    				Losses:
+						</li>
+					</ul>
+				</div>
+
+				<div class="col-sm-3">
+					<ul class="list-group">
+		  				<li class="list-group-item">
+		    				<span class="badge" id="gsl"></span>
+		    				GuessLeft:
+						</li>
+					</ul>
+				</div>
+
+				<div class="col-sm-3">
+					<ul class="list-group">
+		  				<li class="list-group-item">
+		    				<span class="badge" id="ygf"></span>
+		    				Your Gueesses So Far:
+						</li>
+					</ul>
+				</div>
+
+
+			</section>
+		</div>
+
+
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
